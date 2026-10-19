@@ -1,0 +1,49 @@
+{
+  "model_name": "CalibratedChestXRayAdapter_v1",
+  "image_name": "chest_xray_nodule.png",
+  "baseline_class": "Normal",
+  "baseline_conf": 0.6173812747001648,
+  "baseline_probabilities": {
+    "Normal": 0.6173812747001648,
+    "Pneumonia": 0.2271868735551834,
+    "Pleural Effusion": 0.1554318219423294
+  },
+  "total_trials": 28,
+  "curve_metrics": {
+    "Gaussian Noise": {
+      "critical_flip_severity": null,
+      "retention_auc": 0.6172387301921844,
+      "final_retention": 0.617056131362915
+    },
+    "Gaussian Blur": {
+      "critical_flip_severity": null,
+      "retention_auc": 0.6173391342163086,
+      "final_retention": 0.6172820925712585
+    },
+    "Contrast Reduction": {
+      "critical_flip_severity": null,
+      "retention_auc": 0.6170200407505035,
+      "final_retention": 0.6167048215866089
+    },
+    "Intensity Darkening": {
+      "critical_flip_severity": null,
+      "retention_auc": 0.6177737613519033,
+      "final_retention": 0.617721438407898
+    },
+    "Intensity Brightening": {
+      "critical_flip_severity": null,
+      "retention_auc": 0.6156099239985148,
+      "final_retention": 0.6128724217414856
+    },
+    "Local Occlusion": {
+      "critical_flip_severity": null,
+      "retention_auc": 0.6172096927960714,
+      "final_retention": 0.6170452237129211
+    },
+    "Salt and Pepper": {
+      "critical_flip_severity": null,
+      "retention_auc": 0.6173095603783926,
+      "final_retention": 0.6172018051147461
+    }
+  }
+}
